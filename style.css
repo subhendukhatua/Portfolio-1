@@ -597,6 +597,38 @@ section{
     width: 93%;
     animation: springboot 2s;
 }
+.skill-bar .bar .angularjs{
+    width: 93%;
+    animation: angularjs 2s;
+}
+.skill-bar .bar .debugging{
+    width: 93%;
+    animation: debugging 2s;
+}
+.skill-bar .bar .junit{
+    width: 93%;
+    animation: junit 2s;
+}
+.skill-bar .bar .maven{
+    width: 93%;
+    animation: maven 2s;
+}
+.skill-bar .bar .hibernate{
+    width: 90%;
+    animation: hibernate 2s;
+}
+.skill-bar .bar .dsa{
+    width: 80%;
+    animation: dsa 2s;
+}
+.skill-bar .bar .spring{
+    width: 86%;
+    animation: spring 2s;
+}
+.skill-bar .bar .reactjs{
+    width: 65%;
+    animation: reactjs 2s;
+}
 
 /*--Skill right---*/
 .proffessional{
@@ -771,6 +803,7 @@ section{
     font-size: 1.3rem;
     color: var(--secon-bg-color);
 }
+
 
 
 /*----------------------------------------Contact Section CSS--------------------------------------------------------*/
@@ -948,6 +981,70 @@ footer a i{
     }
     100%{
         width: 93%;
+    }
+}
+@keyframes angularjs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 93%;
+    }
+}
+@keyframes debugging{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 93%;
+    }
+}
+@keyframes junit{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 76%;
+    }
+}
+@keyframes spring{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 86%;
+    }
+}
+@keyframes maven{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+@keyframes hibernate{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes dsa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes reactjs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
     }
 }
 
