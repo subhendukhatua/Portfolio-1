@@ -126,3 +126,30 @@ scrollBottom.forEach((el)=>observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el)=>observer.observe(el));
 
+
+
+
+function sendEmail() {
+    Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "subhendukhatua143@gmail.com",
+      Password: "8A7DF0ACAC67CD8DA683C212EB33AC8A9976",
+      To: "subhendukhatua143@gmail.com",
+      From: "subhendukhatua143@gmail.com",
+      Subject: "New Contact from Subhendu's Portfolio",
+      Body: "Name : "+ document.getElementById("name").value+"<br>"
+           +"Email : "+ document.getElementById("email").value+"<br>"
+           +"Address : "+ document.getElementById("address").value+"<br>"
+           +"Phone : "+ document.getElementById("phone").value+"<br>"
+           +"Message : "+ document.getElementById("body").value+"<br>"
+    }).then((message) => {
+                 if(message ==="OK"){
+                    Swal.fire({
+                        title: "Success",
+                        text: "Thank You For Contact With Subhendu. Our Team Will Contact With You Soon.",
+                        icon: "success"
+                      });
+                 }
+    }
+    );
+  }
